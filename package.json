@@ -1,11 +1,11 @@
 {
-  "name": "@vgm/node-async",
+  "name": "@vgm/nodeasync",
   "version": "1.0.4",
   "description": "Node promisified functions",
   "main": "dist/index.js",
   "typings": "build/index.d.ts",
   "module": "build/index.js",
-  "repository": "https://github.com/vgmtv/node-async",
+  "repository": "https://github.com/vgmtv/nodeasync",
   "license": "MIT",
   "author": {
     "name": "dev",

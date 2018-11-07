@@ -3,7 +3,6 @@ cache:
     - node_modules/
 
 before_script:
-  # - apt-get update -qq && apt-get install
   - yarn
 
 build:
@@ -28,8 +27,9 @@ deploy:
     - vgm
     - library
   script:
+    - yarn build
     - npm run test:prod && npm run build
-    # - yarn report-coverage
+    - yarn report-coverage
     - yarn semantic-release
   only:
     - master
