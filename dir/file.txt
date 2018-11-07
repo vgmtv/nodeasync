@@ -1,0 +1,1 @@
+@semantic-release/changelog @semantic-release/commit-analyzer @semantic-release/git @semantic-release/gitlab @semantic-release/gitlab-config @semantic-release/npm @semantic-release/release-notes-generator

@@ -1,0 +1,35 @@
+cache:
+  paths:
+    - node_modules/
+
+before_script:
+  # - apt-get update -qq && apt-get install
+  - yarn
+
+build:
+  stage: build
+  tags:
+    - vgm
+    - library
+  script:
+    - npm run build
+
+test:
+  stage: test
+  tags:
+    - vgm
+    - library
+  script:
+    - npm run test
+
+deploy:
+  stage: deploy
+  tags:
+    - vgm
+    - library
+  script:
+    - npm run test:prod && npm run build
+    # - yarn report-coverage
+    - yarn semantic-release
+  only:
+    - master
