@@ -29,7 +29,7 @@ deploy:
   script:
     - yarn build
     - npm run test:prod && npm run build
-    - yarn report-coverage
+    # - yarn report-coverage
     - yarn semantic-release
   only:
     - master
