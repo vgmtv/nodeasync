@@ -1,4 +1,4 @@
-# @vgm/node-async
+# @vgm/nodeasync
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/vgmtv/nodeasync.svg)](https://greenkeeper.io/)
 [![Build Status](https://gitlab.com/vgmtv/nodeasync.svg?branch=master)](https://gitlab.com/vgmtv/nodeasync) 
