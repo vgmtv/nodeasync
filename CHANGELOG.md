@@ -1,4 +1,15 @@
+<<<<<<< HEAD
 ## [1.0.4](https://gitlab.com/vgmtv/nodeasync/compare/v1.0.3...v1.0.4) (2018-11-02)
+=======
+# 1.0.0 (2018-11-07)
+
+
+### Bug Fixes
+
+* **package:** udpate package for release ([5abdb52](https://github.com/vgmtv/nodeasync/commit/5abdb52))
+
+## [1.0.4](https://gitlab.com/vgmtv/node-async/compare/v1.0.3...v1.0.4) (2018-11-02)
+>>>>>>> bf39c57e4d01fe54bd2f72dcbd95181b72fd7d0c
 
 
 ### Bug Fixes
