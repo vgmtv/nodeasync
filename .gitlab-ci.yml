@@ -1,4 +1,4 @@
-image: node:11 
+image: node:11-alpine
 
 cache:
   paths:
@@ -12,6 +12,7 @@ build:
   tags:
     - vgm
     - library
+    - docker
   script:
     - npm run build
 
@@ -20,10 +21,12 @@ test:
   tags:
     - vgm
     - library
+    - docker
   script:
     - npm run test
 
 deploy:
+  image: node:11
   stage: deploy
   tags:
     - vgm
