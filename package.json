@@ -1,6 +1,6 @@
 {
   "name": "@vgm/nodeasync",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node promisified functions",
   "main": "dist/index.js",
   "typings": "build/index.d.ts",

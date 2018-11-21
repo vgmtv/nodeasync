@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/vgmtv/nodeasync/compare/v1.0.1...v1.0.2) (2018-11-21)
+
+
+### Bug Fixes
+
+* **deps:** cicle dependencies between walk and index ([c5736f1](https://github.com/vgmtv/nodeasync/commit/c5736f1))
+
 ## [1.0.1](https://github.com/vgmtv/nodeasync/compare/v1.0.0...v1.0.1) (2018-11-21)
 
 
