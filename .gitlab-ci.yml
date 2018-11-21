@@ -1,4 +1,4 @@
-image: node:11-alpine
+image: node:11
 
 cache:
   paths:
@@ -26,11 +26,11 @@ test:
     - npm run test
 
 deploy:
-  image: node:11
   stage: deploy
   tags:
     - vgm
     - library
+    - docker
   script:
     - yarn build
     - npm run test:prod && npm run build
@@ -38,3 +38,4 @@ deploy:
     - yarn semantic-release
   only:
     - master
+
