@@ -1,5 +1,6 @@
 import * as fs from 'graceful-fs'
 import {promisify} from 'util'
+import {walk as w} from './walk'
 
 // Graceful-fs
 export const readFileAsync = promisify(fs.readFile)
@@ -24,4 +25,4 @@ export const fsExistsAsync = promisify(fs.exists)
 export const fsReaddirAsync = promisify(fs.readdir)
 
 // Walk
-export * from './walk'
+export const walk = w
