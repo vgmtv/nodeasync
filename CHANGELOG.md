@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/vgmtv/nodeasync/compare/v1.0.0...v1.0.1) (2018-11-21)
+
+
+### Bug Fixes
+
+* **index:** not export walk correct way ([49ffc0d](https://github.com/vgmtv/nodeasync/commit/49ffc0d))
+
 <<<<<<< HEAD
 ## [1.0.4](https://gitlab.com/vgmtv/nodeasync/compare/v1.0.3...v1.0.4) (2018-11-02)
 =======
