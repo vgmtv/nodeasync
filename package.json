@@ -51,7 +51,7 @@
   "dependencies": {
     "@types/graceful-fs": "^4.1.2",
     "graceful-fs": "^4.1.15",
-    "ramda": "^0.25.0"
+    "ramda": "^0.26.0"
   },
   "devDependencies": {
     "@commitlint/cli": "7.2.1",
@@ -65,7 +65,7 @@
     "@semantic-release/release-notes-generator": "7.1.4",
     "@types/jest": "23.3.9",
     "@types/node": "10.12.10",
-    "@types/ramda": "0.25.41",
+    "@types/ramda": "0.25.42",
     "@types/rimraf": "2.0.2",
     "babel-core": "6.26.3",
     "babel-plugin-transform-es2015-modules-commonjs": "6.26.2",
