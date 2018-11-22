@@ -1,5 +1,4 @@
 import {join} from 'path'
-import {map, forEach} from 'ramda'
 import {statAsync, readdirAsync} from './builtins'
 
 // Walk
@@ -10,7 +9,7 @@ const getPathInfo = async (path: string) => {
 
 const getFilesInDir = async (path: string) => {
   const files = await readdirAsync(path)
-  return map((file: any) => join(path, file), files)
+  return files.map((file: any) => join(path, file))
 }
 
 /**
@@ -23,7 +22,7 @@ export const walk = async (path: string): Promise<string[]> => {
   const contents = await getFilesInDir(path)
   const pathInfoArray = await Promise.all(contents.map(getPathInfo))
 
-  forEach(({isDir, path}: any) => (isDir ? folders : files).push(path), pathInfoArray)
+  pathInfoArray.forEach(({isDir, path}: any) => (isDir ? folders : files).push(path))
 
   const result = await Promise.all(folders.map(walk))
   return files.concat(...result)
