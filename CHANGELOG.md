@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/vgmtv/nodeasync/compare/v1.1.0...v1.1.1) (2018-11-22)
+
+
+### Bug Fixes
+
+* **deps:** remove ramda ([0651303](https://github.com/vgmtv/nodeasync/commit/0651303))
+
 # [1.1.0](https://github.com/vgmtv/nodeasync/compare/v1.0.2...v1.1.0) (2018-11-22)
 
 
