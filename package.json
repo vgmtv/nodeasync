@@ -50,7 +50,9 @@
   },
   "dependencies": {
     "@types/graceful-fs": "^4.1.2",
+    "@types/mkdirp": "^0.5.2",
     "graceful-fs": "^4.1.15",
+    "mkdirp": "^0.5.1",
     "ramda": "^0.25.0"
   },
   "devDependencies": {
