@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/vgmtv/nodeasync/compare/v1.1.1...v1.2.0) (2018-11-23)
+
+
+### Features
+
+* **package:** open source the module ([3533cf9](https://github.com/vgmtv/nodeasync/commit/3533cf9))
+
 ## [1.1.1](https://github.com/vgmtv/nodeasync/compare/v1.1.0...v1.1.1) (2018-11-22)
 
 
