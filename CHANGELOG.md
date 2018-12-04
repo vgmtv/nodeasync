@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/vgmtv/nodeasync/compare/v1.2.0...v1.3.0) (2018-12-04)
+
+
+### Features
+
+* **builtins:** add copyFileAsync/fsCopyFileAsync functions ([f161bbe](https://github.com/vgmtv/nodeasync/commit/f161bbe))
+
 # [1.2.0](https://github.com/vgmtv/nodeasync/compare/v1.1.1...v1.2.0) (2018-11-23)
 
 
