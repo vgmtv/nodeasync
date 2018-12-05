@@ -1,7 +1,7 @@
 import {join} from 'path'
 import {tmpdir} from 'os'
-import {existsAsync} from '../builtins'
-import {mkdirpAsync} from '../advance'
+import {existsAsync} from '../src/builtins'
+import {mkdirpAsync} from '../src/advance'
 
 describe('advance', () => {
   it('make directory recursive', async (done) => {
