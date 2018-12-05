@@ -24,7 +24,7 @@
     "watch:parcel": "parcel watch src/index.ts --target node",
     "watch:tsc": "tsc --watch",
     "build:parcel": "parcel build build/index.js --target node",
-    "build:tsc": "tsc",
+    "build:tsc": "tsc -p tsconfig.build.json",
     "start:bundle": "run-p watch:tsc watch:parcel",
     "start": "nodemon --watch src -e ts,tsx --exec 'yarn dev'",
     "lint": "tslint -p tsconfig.json",
