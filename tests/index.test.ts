@@ -1,4 +1,4 @@
-import * as p from '../'
+import * as p from '../src/index'
 
 describe('index', () => {
   it('export number of functions correctly', () => {

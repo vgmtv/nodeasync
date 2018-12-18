@@ -1,4 +1,4 @@
-import * as mkdirp from 'mkdirp'
+import mkdirp from 'mkdirp';
 
 /**
  * Make dir recursive multiple path nested

@@ -1,7 +1,7 @@
 import {join} from 'path'
-import {walk} from '../walk'
+import {walk} from '../src/walk'
 
-const root = join(__dirname, '../../dir')
+const root = join(__dirname, '../dir')
 
 describe('walk', () => {
   it('walk through dir recursively', async () => {
