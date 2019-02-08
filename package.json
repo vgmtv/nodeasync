@@ -62,7 +62,7 @@
     "@semantic-release/git": "7.0.8",
     "@semantic-release/npm": "5.1.4",
     "@types/jest": "23.3.13",
-    "@types/node": "10.12.18",
+    "@types/node": "10.12.24",
     "@types/rimraf": "2.0.2",
     "babel-core": "6.26.3",
     "babel-plugin-transform-es2015-modules-commonjs": "6.26.2",
