@@ -63,7 +63,7 @@
     "@semantic-release/npm": "5.1.4",
     "@types/jest": "23.3.13",
     "@types/node": "10.12.18",
-    "@types/rimraf": "2.0.2",
+    "@types/rimraf": "2.0.3",
     "babel-core": "6.26.3",
     "babel-plugin-transform-es2015-modules-commonjs": "6.26.2",
     "babel-plugin-transform-object-rest-spread": "6.26.0",
